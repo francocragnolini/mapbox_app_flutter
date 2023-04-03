@@ -111,8 +111,8 @@ class _FullScreenMapState extends State<FullScreenMap> {
                 selectedTheme = navigation;
               } else {
                 selectedTheme = satelliteStreets;
-                _onStyleLoaded();
               }
+              _onStyleLoaded();
 
               setState(() {});
             })
